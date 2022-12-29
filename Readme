@@ -1,0 +1,3 @@
+To run the Project :
+In the nodeserver folder => Run npx nodemon index.js
+Open index.html with live server {Add extension in VScode}
