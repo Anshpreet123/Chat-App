@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="css/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+    <script defer src="http://localhost:6999/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.0.3/dist/index.min.js"></script>
+
+    <title>Chat App</title>
+   
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="css/snow.mp4" type="video/mp4">
+      </video>
+    <nav id="z">
+        <div class="head" >
+            <center><img class="logo" src="css/logo.png"></center>
+            <center><h1>Welcome to the Chat App</h1></center>
+        </div>
+    </nav>
+
+    <center>
+        <div class="container" id="z">
+            <div class="message right">This is a custom message , 😍</div>
+            <!-- <div class="message left">rohan : How are you today ?</div> -->
+          
+        </div>
+        
+    </center>
+
+    <center>
+        <div class="send" id="z">
+       
+            <form action="#" id="send-container">
+                <input type="text" name="messageInp" id="messageInp"><a id="emoji-button" class="emoji"><img class="emoji" src="css/emoji (2).png"></a></input>
+                
+                <button id="btn" type="submit"><img class="logi" src="css/send.png"></button>
+               
+            </form>
+    
+           
+        </div>
+    
+    </center>
+</body>
+</html>

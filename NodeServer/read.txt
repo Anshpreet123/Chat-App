@@ -1,0 +1,5 @@
+things that we require to run are :
+
+npm i socket.io
+npm i nodemon
+npx nodemon index.js

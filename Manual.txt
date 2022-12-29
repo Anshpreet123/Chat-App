@@ -1,0 +1,8 @@
+things that we needed to install were:
+npm i socket.io
+npm i nodemon 
+
+
+to run the program =>
+go to nodeserver and hit
+npx nodemon index.js
